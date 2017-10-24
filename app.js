@@ -6,11 +6,14 @@ var comparar = function(arreglo1,arreglo2){
   return false;
   }
   else {
-    for(var i=0; i< arreglo1.length; i+=1){
-      if(){
-        
+for(var i=0; i< arreglo1.length; i+=1){
+      if(arreglo1[i]!==arreglo2[i]){
+      return false;
       }
     }
+    document.write("todas las condiciones se cumplen")
+    return true
+
   }
 }
 comparar(array1,array2);
